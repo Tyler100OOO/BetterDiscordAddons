@@ -71,7 +71,7 @@ var AccountDetailsPlus = (() => {
         constructor() {
             super();
             // this.usernameCSS = `.container-iksrDt .accountDetails-26T3kW { cursor: pointer; }`;
-            this.popoutOpen = false;
+            this.popoutOpen = true;
         }
 
         async onStart() {
